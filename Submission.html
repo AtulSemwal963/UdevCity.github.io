@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UdevCity.com</title>
+    <link rel="stylesheet" href="Submission.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <img src="UdevCitycom-logos_white.png" class="logo">
+            <div>
+                <img src="img.png" alt="" class="profile">
+                <div class="login-signup"><a href="Login.html">Login/Signup</a></div>
+            </div>
+        </header>
+        <div class="banner" >
+            </div>
+            <div class="slogan">
+                <p><span>THE</span> <span>SMART CITY SOLUTION</span>,<br>
+                    <span class="we_need">WE NEED</span> <span class="your_help">YOUR HELP </span><span class="with">WITH</span></p></div>
+                    <div class="navbar">
+                       <li class="About" target="_blank"><a href="index.html">About</a></li>
+                       <li class="Submission">Submission</li>
+                       <li class="FAQs" target="_blank"><a href="FAQs.html">FAQ's</a></li>
+                       <li class="Resources" target="_blank"><a href="Resources.html">Resources</a></li>
+            </div>
+            <div class="navbar2">
+                <li><a href="index.html" target="_blank">About</a></li>
+                <li>Submission</li>
+                <li><a href="FAQs.html" target="_blank">FAQ's</a></li>
+                <li><a href="Resources.html" target="_blank">Resources</a></li>
+                <li><a href="Login.html" target="_blank">Login/Signup</a></li>
+            </div>
+            <div class="content">
+                <form>
+                <select class="category" required="">
+                    <option value="" id="option1" selected="" disabled="">Select City</option>
+<option value="" id="option1">Mumbai</option>
+<option value="" id="option2">Delhi</option>
+<option value="" id="option3">Banaglore</option>
+<option value="" id="option4">Hyderabad</option>
+<option value="" id="option5">Ahmedabad</option>
+<option value="" id="option6">Chennai</option>
+<option value="" id="option7">Kolkata</option>
+<option value="" id="option8">Surat</option>
+<option value="" id="option9">Pune</option>
+<option value="" id="option10">Jaipur</option>
+<option value="" id="option11">Luknow</option>
+<option value="" id="option12">Kanpur</option>
+<option value="" id="option13">Nagpur</option>
+<option value="" id="option14">Indore</option>
+<option value="" id="option15">Thane</option>
+<option value="" id="option16">Bhopal</option>
+<option value="" id="option17">Vishakapatnam</option>
+<option value="" id="option18">Pimpri & Chinchwad</option>
+<option value="" id="option19">Patna</option>
+<option value="" id="option20">vadodara</option>
+<option value="" id="option21">Ghaziabad</option>
+<option value="" id="option22">Ludhiana</option>
+<option value="" id="option23">Agra</option>
+<option value="" id="option24">Nashik</option>
+<option value="" id="option25">Faridabad</option>
+<option value="" id="option26">Meerut</option>
+<option value="" id="option27">Rajkot</option>
+<option value="" id="option28">Kalyan & Dombiwali</option>
+<option value="" id="option29">Vasai Virar</option>
+<option value="" id="option30">Varanasi</option>
+<option value="" id="option31">Srinagar</option>
+<option value="" id="option32">Aurangabad</option>
+<option value="" id="option33">Dhanbad</option>
+<option value="" id="option34">Amritsar</option>
+<option value="" id="option35">Navi Mumbai</option>
+<option value="" id="option36">Allahbad</option>
+<option value="" id="option37">Ranchi</option>
+<option value="" id="option38">Haora</option>
+<option value="" id="option39">Coimbatore</option>
+<option value="" id="option40">Jabalpur</option>
+<option value="" id="option41">Gwalior</option>
+<option value="" id="option42">Vijayawada</option>
+<option value="" id="option43">Jodhpur</option>
+<option value="" id="option44">Madurai</option>
+<option value="" id="option45">Raipur</option>
+<option value="" id="option46">Kota</option>
+<option value="" id="option47">Guwahti</option>
+<option value="" id="option48">Chandigarh</option>
+<option value="" id="option49">Solapur</option>
+<option value="" id="option50">Hubli and Dharwad</option>
+                </select>
+                <select class="category" required="">
+                    <option value="" id="option1" selected="" disabled="">select situation category</option>
+                    <option value="" id="option2">Waste Disposal</option>
+                    <option value="" id="option3"> Sanitation Issue</option>
+                    <option value="" id="option4">Water Sanitation</option>
+                    <option value="" id="option5">Unserviceable/Damaged Road</option>
+                    <option value="" id="option6">Unserviceable/Damaged
+                        Public Property</option>
+                    <option value="" id="option7">Public hazard/Inconvenience</option>
+                    <option value="" id="option8">Electricity Issue</option>
+                    <option value="" id="option9">Wildlife/Animal Protection</option>
+                    <option value="" id="option10">Pest Control</option>
+                </select>
+                <div class="description">
+                    WRITE A DESCRIPTION OF THE SITUATION
+                    <textarea placeholder="Type here..." required=""></textarea>
+                </div>
+                <div class="photo_place">
+                    <div class="photo">
+                        <div class="text">UPLOAD SITUATION IMAGE</div>
+                        <label for="file" style="cursor: pointer;">Upload</label>
+                        <div class="image">
+                            <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;" placeholder="post" required="">
+                            <img id="output" height="100%" width="100%">
+                    
+                            <script>
+                                var loadFile = function (event) {
+                                    var image = document.getElementById('output');
+                                    image.src = URL.createObjectURL(event.target.files[0]);
+                                };</script>
+                                </div>
+                    </div>
+                    <div class="location">
+                        <div class="text_2">TYPE LOCATION ADDRESS/COORDINATES</div>
+                        <div class="loc_text">
+                            <textarea placeholder="Type here..." required=""></textarea>
+                        </div>
+                    </div>
+                    </div>
+                    <input type="submit">
+                    </form>
+        </div>
+        <footer><img src="bg2.webp" style="width:100vw;
+            margin-top:-66%;z-index:-1;position:relative"/></footer>
+        <div class="bottom_text">UdevCity.com <sup>&reg</sup></div >
+    </body>
+
+</html>
